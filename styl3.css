@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+header {
+    background-color:rgb(205, 92, 92);
+    padding: 5px;
+    text-align: center;
+    
+    
+}
+h1, header {
+    color: white;
+}
+
+footer {
+    background-color:rgb(205, 92, 92);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+            left: 0;
+            right: 0;
+            
+    
+}
+#left {
+    width: 25%;
+    height: 500px;
+    float: left;
+    background-color: rgb(250, 235, 215)
+}
+#center {
+    width: 50%;
+    height: 500px;
+    float: left;
+    
+    background-color: rgb(250, 237, 215);
+}
+#right {
+ width: 25%;
+ height: 500px;
+ float: left;
+ 
+ background-color: rgb(250, 235, 215)
+}
+ h2 {
+    text-align: center;
+}
+img {
+    
+    height: 100px;
+    margin: 6px;
+}
+h2::first-letter {
+    font-size: 150%; 
+}
+#data {
+   background-color: rgb( 200, 180, 140);
+   color: white;
+}
+li {
+    padding-top: 9px;
+}
